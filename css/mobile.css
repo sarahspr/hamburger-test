@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+    .nav-right {
+        display: none;
+    }
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        position: absolute;
+        top: 21px;
+        right: -5px;
+    }
+}

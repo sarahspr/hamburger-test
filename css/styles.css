@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainwrapper {
+    margin: 15px auto 0;
+    width: 90%;
+}
+
+.main-header {
+    width: 100%;
+    height: 90px;
+    padding: 15px;
+    display: flex;
+}
+
+.top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left  {
+    width: 325px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 150px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.company-name {
+    padding-left: 15px;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-right {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    transition: all 0.3s ease-in-out;
+}
+
+.mobile-menu-container {
+    display: none;
+}
+
+.mobile-menu {
+    display: block;
+    position: relative;
+    background: red;
+}
+
+.mobile-menu-burger {
+    width: inherit;
+    height: inherit;
+}
+
+.burger-closed {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.burger-open {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.display-none {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a {
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+}
+
+.menu a:last-of-type {
+    padding-right: 0;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+.heading {
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.content {
+    margin-bottom: 75px;
+    line-height: 22px;
+}
